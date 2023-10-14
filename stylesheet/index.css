@@ -1,0 +1,107 @@
+* {
+    color: rgb(0, 255, 149);
+    background-color: rgb(0, 0, 0);
+
+    font-family: "AR One Sans";
+    font-weight: 400;
+}
+span:hover {
+    animation-duration: 3s;
+    animation-name: turnred;
+
+    color: rgb(188, 0, 0);
+}
+.title {
+    color: rgb(0, 140, 255);
+    background-color: rgb(0, 0, 0);
+
+    width: 100%;
+
+    font-family: "AR One Sans";
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 80%;
+
+    position: fixed;
+    top: 30%;
+    left: 0px;
+
+    padding: 50px;
+    padding-bottom: 60px;
+}
+.yellow {
+    color: rgb(255, 255, 0);
+    font-weight: 700;
+}
+.subtitle {
+    color: rgb(0, 140, 255);
+    background-color: rgb(0, 0, 0);
+
+    width: 100%;
+
+    font-family: "AR One Sans";
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 80%;
+
+    position: fixed;
+    top: calc(30% + 250px);;
+    left: 0px;
+
+    padding: 50px;
+    padding-top: 0px;
+    padding-right: 70px;
+}
+.copyright {
+    color: rgb(0, 140, 255);
+    background-color: rgb(0, 0, 0);
+
+    width: 100%;
+
+    font-family: "AR One Sans";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 80%;
+
+    position: fixed;
+    top: calc(100% - 120px);
+    left: 0px;
+
+    padding: 50px;
+    padding-right: 70px;
+}
+.bg-img {
+    width: 100%;
+    height: 250px;
+    z-index: 10;
+
+    position: fixed;
+    object-fit: cover;
+    object-position: 25% 25%; 
+
+    opacity: 0%;
+}
+.bg-img:hover {
+    animation-duration: 6s;
+    animation-name: slowlyview;
+
+    opacity: 100%;
+} 
+@keyframes slowlyview {
+    from {
+        opacity: 0%;
+        width: 100%;
+    }
+    to {
+        opacity: 100%;
+        width: 100%;
+    }
+}
+@keyframes turnred {
+    from {
+        color: rgb(0, 140, 255);
+    }
+    to {
+        color: rgb(188, 0, 0);
+    }
+}
