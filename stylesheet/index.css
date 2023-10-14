@@ -17,7 +17,7 @@
     line-height: 80%;
 
     position: fixed;
-    top: 30%;
+    top: 25%;
     left: 0px;
 
     padding: 50px;
@@ -39,7 +39,7 @@
     line-height: 80%;
 
     position: fixed;
-    top: calc(30% + 20vw + 30px);;
+    top: calc(25% + 20vw + 30px);;
     left: 0px;
 
     padding: 50px;
