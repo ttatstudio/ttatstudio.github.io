@@ -13,7 +13,7 @@
 
     font-family: "AR One Sans";
     font-weight: 700;
-    font-size: 100px;
+    font-size: 8vw;
     line-height: 80%;
 
     position: fixed;
@@ -35,7 +35,7 @@
 
     font-family: "AR One Sans";
     font-weight: 700;
-    font-size: 35px;
+    font-size: 2.8vw;
     line-height: 80%;
 
     position: fixed;
@@ -54,7 +54,7 @@
 
     font-family: "AR One Sans";
     font-weight: 400;
-    font-size: 25px;
+    font-size: 2vw;
     line-height: 80%;
 
     position: fixed;
@@ -72,7 +72,7 @@
 
     font-family: "AR One Sans";
     font-weight: 400;
-    font-size: 25px;
+    font-size: 2vw;
     line-height: 80%;
 
     position: fixed;
