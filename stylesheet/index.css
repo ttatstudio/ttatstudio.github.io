@@ -64,3 +64,21 @@
     padding: 50px;
     padding-right: 70px;
 }
+.text {
+    color: rgb(0, 140, 255);
+    background-color: rgb(0, 0, 0);
+
+    width: 100%;
+
+    font-family: "AR One Sans";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 80%;
+
+    position: fixed;
+    top: calc(100% - 200px);
+    left: 0px;
+
+    padding: 50px;
+    padding-right: 70px;
+}
